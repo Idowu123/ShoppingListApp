@@ -529,94 +529,122 @@ table {
 /*MY CSS DESIGN*/
 body{
 /*	margin:200px 300px;*/
-	background: url('../img/vectorb.jpg');
+	background: url('../img/shopping.jpg');
 	background-size: cover;
-
+    color: white;
+    padding: 0 20px;
 }
 .shop{
-	
+    font-weight: bold;
 }
 
 #shopi{
 	font-family: 'Lora', serif;
 	font-weight: bold;
-	color: black;
-	font-size: 55px;
-	margin: 120px 20px 0 850px;
+	color: #0099CC;
+	font-size: 40px;
+	margin: 5px 20px 30px 0;
+}
 
+header{
+    
 }
 
 #myabout{
-	margin: 0 50px 0 140px;
 	font-weight: bold;
 	font-family: 'Lora', serif;
 	letter-spacing: 0.2px;
+ 
 }
 #mklist{
-	margin: 15px 50px -35px 250px;
+	margin: 15px 60px -55px 0;
 	font-weight: bold;
 	font-size: 20px;
-	color:;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif
+
 }
 li{
 	list-style: none;
-	font-family: 'Droid Serif', serif;
-
-}
+	font-family: 'Open Sans', sans-serif
+   }
 
 #newitem{
 	display: inline-block;
 	background-color: lightgrey;
-	border: 2px solid black;
+	border: 1px solid black;
+    border-radius: 12px;
 	width: 500px;
 	height: 30px;
-	margin: 40px 0 0 130px;
+	margin: 60px 0 0 0;
 }
 
 #add{
 	display: inline-block;
-	background-color: grey;
+	background-color: #0099CC;
 	text-align: center;
 	width: 180px;
 	height: 35px;
+    border-radius: 10px;
+    border: 1px solid #666;
 }
 
 .additem{
-	color: darkgreen;
+	color: white;
 	font-size:;
 	font-family: ;
 }
 
 #checkListItem{
 	margin-left: 6px;
+
 }
 
 .list{
-	border: 1px solid black;
+	border: 1px solid #000;
 	float:left;
 	margin-left: 130px;
-	margin-top: 40px;
-	width: 550px;
-	height: 260px;
+	margin-top: 0;
+	border:1px solid grey;
+    margin: 10px 0 0 0;
+    width: 600px;
+    height: 400px;
+    background-color: rgba(255,255,255,0.3);
+    font-family: 'Open Sans', sans-serif
+    
 }
 
+.list-title{
+  font-weight: bold;
+  text-align: center;
+}
 
 .delist{
 	float: right;
 	border:1px solid grey;
-	margin-right: 20px;
-	width: 500px;
+	margin: 10px 0 0 0;
+	width: 600px;
 	height: 400px;
 	font-color: red;
+    background-color: rgba(255,255,255,0.3);
 }
 
 #mydelete{
 	background-color: darkgrey;
+    height: 25px;
+    width: 80px;
+    border-radius: 5px;
+    /*float: right;*/
+    background-color: #0099CC;
+    border: 1px solid #666;
+    color: #000;
 }
-
-.listpg p{
-
-}
-.shop{
-	
+#myedit{
+height: 25px;
+width: 80px;
+border-radius: 5px;
+color: #000;
+background-color: #0099CC;
+margin: 0 30px;
+border: 1px solid #666;
 }
