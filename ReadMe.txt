@@ -1,0 +1,1 @@
+this is an app that allows people selct items to buy from a list and to add to the list
