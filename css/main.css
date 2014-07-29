@@ -547,7 +547,7 @@ body{
 }
 
 header{
-    
+
 }
 
 #myabout{
@@ -647,4 +647,8 @@ color: #000;
 background-color: #0099CC;
 margin: 0 30px;
 border: 1px solid #666;
+}
+
+#checkListItem{
+    list-style: circle;
 }
